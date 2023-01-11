@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+box-shadow: 0.5px 0.5px 5px 2px grey;

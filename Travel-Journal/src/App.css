@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #f55a5a;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  box-shadow: 5px 1px 5px grey;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 12px;
+  margin: 20px;
+}
+
+.contact-card {
+  display: flex;
+  width: 1fr;
+  box-sizing: border-box;
+  box-shadow: 0.5px 0.5px 5px 2px grey;
+  border-radius: 10px;
+}
+
+.image {
+  width: 250px;
+  height: 275px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.location-image {
+  width: 14px;
+  height: 14px;
+}
+
+.locationimg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  font-weight: 600;
+  color: #2b283a;
+  letter-spacing: 0.17em;
+  font-size: 11px;
+  padding-bottom: 0;
+  margin-left: 10px;
+}
+
+.card-info {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 5px;
+  margin: 0px;
+}
+
+.name {
+  font-size: 24px;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.info {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
